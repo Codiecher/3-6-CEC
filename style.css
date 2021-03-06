@@ -1,18 +1,23 @@
 body{
    background-color: black;
    border-radius: 1em 1em 1em 1em;
-    display: grid;
-  justify-content:center;
+   display: grid;
+   justify-content:center;
    align-items:center;
 }
 .main_div{
   padding:6rem 2rem;
-  display:grid;
   align-content:center;
   border-radius:1rem;
 }
 
-form{
+.loggedin_div{
+  padding:6rem 2rem;
+  align-content:center;
+  border-radius:1rem;
+}
+
+.form{
   display:grid;
   justify-items:center;
   row-gap:1.5rem;
@@ -20,7 +25,6 @@ form{
 .abc{
   text-align: center;
   font-size:160%;
-
 }
 
 input, button{
@@ -52,7 +56,7 @@ input:focus{
   text-align:left;
 }
 
-button{
+.login{
   margin-top:1rem;
   padding:0.75rem 2.5rem;
 }

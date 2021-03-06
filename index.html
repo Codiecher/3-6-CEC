@@ -9,20 +9,15 @@
   <body>
     <div class="main_div" id="login_div">
       <h3 class="abc"><font color='white'>User Login<font></h3>
-      <form action="">
+      <div class="form">
        <input type="email" placeholder="Email..." id="email_field" autocomplete="off">
        <input type="password" placeholder="Password..." id="password_field">
-        <div class="show">
-        <input  type="checkbox" onclick="myFunction()">Show Password
-      <div>
-      <button onclick="login()"><font color='#ffffff'>Login</font></button>
-     
-      </form>
-        
+        <button class="login" onclick="login()"><font color='#ffffff'>Login</font></button>
+      </div>
     </div>
     <div class="loggedin_div" id="user_div">
       <h3>YAYYY! You successfully logged-in using Firebase.....</h3>
-      <button onclick="logout()">Logout</button>
+      <button onclick="logout()"><font color='#ffffff'>Logout</font></button>
     </div>
 
       <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
