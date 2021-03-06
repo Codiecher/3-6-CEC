@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="main_div" id="login_div">
+      <h3 class="abc"><font color='white'>User Login<font></h3>
+      <form action="">
+       <input type="email" placeholder="Email..." id="email_field" autocomplete="off">
+       <input type="password" placeholder="Password..." id="password_field">
+      <button onclick="login()"><font color='#ffffff'>Login</font></button>
+   <input class="password" type="checkbox" onclick="myFunction()">Show Password
+      </form>
+        
+    </div>
+    <div class="loggedin_div" id="user_div">
+      <h3>YAYYY! You successfully logged-in using Firebase.....</h3>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+      <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+      
+      <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyDIu1Ka1E3Z5nZQ8Os-LSm0LXDcvQRATPg",
+          authDomain: "cec-549bf.firebaseapp.com",
+          projectId: "cec-549bf",
+          storageBucket: "cec-549bf.appspot.com",
+          messagingSenderId: "510361199362",
+          appId: "1:510361199362:web:8cda8e98dbdec32b30981b",
+          measurementId: "G-T0LSZS1DHL"
+        };
+        // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="script.js"></script>
+  </body>
+</html>

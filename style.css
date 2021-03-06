@@ -1,0 +1,66 @@
+body{
+   background-color: black;
+   border-radius: 1em 1em 1em 1em;
+    display: grid;
+  justify-content:center;
+   align-items:center;
+}
+.main_div{
+  padding:6rem 2rem;
+  display:grid;
+  align-content:center;
+  border-radius:1rem;
+}
+
+form{
+  display:grid;
+  justify-items:center;
+  row-gap:1.5rem;
+}
+.abc{
+  text-align: center;
+  font-size:160%;
+
+}
+
+input, button{
+  font-size:1.1rem;
+  padding:0.75rem 1.5rem;
+  background-color:#333333;
+  color:#666666;
+  text-align:center;
+  border:none;
+  border-radius:1em;
+  outline:none;
+}
+
+input::placeholder{
+  color: #ffffff80;
+  text-align:center;
+  letter-spacing:0;
+}
+
+input, select, textarea{
+  color:#ffffff;
+}
+
+input[type='password'] {
+  letter-spacing: 0.1rem;
+}
+
+input:focus{
+  text-align:left;
+}
+
+button{
+  margin-top:1rem;
+  padding:0.75rem 2.5rem;
+}
+
+button:hover{
+  background-color: #ffffff50;
+}
+
+.password{
+  padding: 5rem 5rem;
+}
